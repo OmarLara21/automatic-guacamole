@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Pencil
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pencil\ here.\r\n\r\n\ @author\ (Omar\ Lara)\r\n\ @version\ (11/26/18)\r\n
+comment1.params=
+comment1.target=Pencil()
+comment2.params=pencil_length\ pencil_color\ pencil_width
+comment2.target=Pencil(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=made_in\ numberinpack
+comment3.target=Pencil(java.lang.String,\ int)
+comment4.params=
+comment4.target=void\ sharpen_pencil()
+comment5.params=color
+comment5.target=void\ scrap_paint(java.lang.String)
+comment6.params=
+comment6.target=void\ break_pencil()
+numComments=7
