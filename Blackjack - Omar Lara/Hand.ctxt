@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Blackjack\ here.\r\n\r\n\ @author\ (Omar\ Lara)\r\n\ @version\ (12/6/18)\r\n
+comment1.params=
+comment1.target=Hand()
+comment2.params=
+comment2.target=int\ getcard()
+comment3.params=
+comment3.target=int\ grab_total()
+comment4.params=
+comment4.target=int\ getCardOne()
+comment5.params=
+comment5.target=int\ getCardTwo()
+numComments=6
