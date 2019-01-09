@@ -8,15 +8,17 @@
 public class modarraysV2
 {
     int[] array = {4,7,8,9,3,0};
-    public void remove(int index){
-        for(int i = 0;i < array.length; i++){
-            ///if (i ==index){
-                ///array[i] =array[index+1];
-                while(array[i]==index){
-                    array[i]=array[index+1];
-                    i--;
-                }
-            ///}
+    public void add(int index, int num){
+        for(int i = index; i <array.length-1;i++){
+            array[i] = num;
         }
+    }
+    public void remove(int index){
+        for(int i = index;i < array.length-1; i++){
+                array[i] =array[i+1];
+                
+            
+        }
+        array[array.length-1] = 0;
     }
 }
