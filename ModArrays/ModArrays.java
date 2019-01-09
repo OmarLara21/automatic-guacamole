@@ -7,13 +7,14 @@
  */
 public class ModArrays
 {
-int[] arr = {4,7,8,9,3,0};
+    int[] arr = {4,7,8,9,3,0};
 
     public void add(int num, int index){
         
     }
     
     public void remove(int index){
-        
+        for(int i < );
     }
+    
 }
