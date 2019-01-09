@@ -10,7 +10,13 @@ public class modarraysV2
     int[] array = {4,7,8,9,3,0};
     public void remove(int index){
         for(int i = 0;i < array.length; i++){
-            System.out.println(array[i]);
+            ///if (i ==index){
+                ///array[i] =array[index+1];
+                while(array[i]==index){
+                    array[i]=array[index+1];
+                    i--;
+                }
+            ///}
         }
     }
 }
