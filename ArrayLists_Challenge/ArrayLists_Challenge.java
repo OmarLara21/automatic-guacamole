@@ -23,15 +23,10 @@ public class ArrayLists_Challenge
          System.out.println(str);
         }
     }
-    public String getFirstElement(){
-        return colorsList.get(0);
+    public void makeFirstElement(){
+        colorsList.add(0,"purple");
     }
-    public void engageCookieMonster(){
-        for (int i= 0; i<colorsList.size(); i++){
-            colorsList.set(i, "COOKIES!!!!!!!!");
+    public String getcolor(int index){
+        return colorsList.get(index);
         }
     }
-    public void removeFirstElement(){
-        colorsList.remove(0);
-    }
-}
