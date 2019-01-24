@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayLists_Challenge
+comment1.params=
+comment1.target=ArrayLists_Challenge()
+comment2.params=
+comment2.target=void\ printColors()
+comment3.params=
+comment3.target=void\ makeFirstElement()
+comment4.params=index
+comment4.target=java.lang.String\ getcolor(int)
+numComments=5
