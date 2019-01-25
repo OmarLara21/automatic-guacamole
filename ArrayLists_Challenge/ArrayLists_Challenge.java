@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class ArrayList here.
  *
@@ -11,6 +10,7 @@ public class ArrayLists_Challenge
 {  
     ArrayList<String> colorsList;
     ArrayList<String> shapesList;
+    ArrayList<String> colors;
     public ArrayLists_Challenge(){
         colorsList= new ArrayList();
         colorsList.add("Blue");
@@ -60,12 +60,34 @@ public class ArrayLists_Challenge
     }
      * 
      */
+    
+    //9
+    public void copy(){
+         for (String str: colorsList){
+             colors = colorsList;
+            }
+    }
+    //14
+    /*public void swap(int index){
+        colors.get(index) = colorsList.get(0);
+        colorsList.get(index) = colors.get(0);
+    }
+    */
     //17
     public void removeAll(){
+            colorsList.clear();
         
-        for (int i= 0; i<colorsList.size();i++){
-            colorsList.remove(i);
-        }
-        colorsList.remove(0);
+    }
+    //18
+    public boolean checkempty(){
+        return (colorsList.isEmpty());
+    }
+    //19
+    public void trimsize(){
+        colorsList.trimToSize();
+    }
+    //21
+    public void change2ndcolor(String newColor ){
+        colorsList.set(1, newColor);
     }
 }

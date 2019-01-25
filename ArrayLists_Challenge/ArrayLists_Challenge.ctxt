@@ -2,6 +2,12 @@
 comment0.target=ArrayLists_Challenge
 comment1.params=
 comment1.target=ArrayLists_Challenge()
+comment10.params=
+comment10.target=boolean\ checkempty()
+comment11.params=
+comment11.target=void\ trimsize()
+comment12.params=newColor
+comment12.target=void\ change2ndcolor(java.lang.String)
 comment2.params=
 comment2.target=void\ printColors()
 comment3.params=color
@@ -15,6 +21,9 @@ comment6.target=void\ remove3rdcolor()
 comment7.params=color
 comment7.target=boolean\ searchforColor(java.lang.String)
 comment8.params=
-comment8.target=void\ removeAll()
+comment8.target=void\ copy()
 comment8.text=public\ void\ sortArrayList(){\r\n\ \ \ \ \ \ \ \ ArrayList<String>\ colorsinOrder\ \=\ new\ ArrayList();\r\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i<colorsList.size();i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (colorsList.get(i).length()<\=colorsList.get(i+1).length()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ colorsList.set(0,\ colorsList.get(i));\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \r\n
-numComments=9
+comment9.params=
+comment9.target=void\ removeAll()
+comment9.text=public\ void\ swap(int\ index){\r\n\ \ \ \ \ \ \ \ colors.get(index)\ \=\ colorsList.get(0);\r\n\ \ \ \ \ \ \ \ colorsList.get(index)\ \=\ colors.get(0);\r\n\ \ \ \ }\r\n
+numComments=13
