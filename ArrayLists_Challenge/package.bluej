@@ -1,15 +1,15 @@
 #BlueJ package file
 editor.fx.0.height=739
 editor.fx.0.width=591
-editor.fx.0.x=258
-editor.fx.0.y=0
+editor.fx.0.x=248
+editor.fx.0.y=6
 objectbench.height=156
 objectbench.width=322
 package.divider.horizontal=0.6
 package.divider.vertical=0.674
 package.editor.height=317
 package.editor.width=232
-package.editor.x=-25
+package.editor.x=-11
 package.editor.y=103
 package.frame.height=600
 package.frame.width=362
@@ -28,5 +28,5 @@ target1.name=ArrayLists_Challenge
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=150
-target1.x=80
-target1.y=10
+target1.x=70
+target1.y=30
