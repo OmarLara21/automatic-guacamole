@@ -63,10 +63,10 @@ public class ArrayLists_Challenge
     }
     */
     
-    //9
+    //9 and 16
     public void copy(){
          for (String str: colorsList){
-             colors = colorsList;
+             colors.add(str);
             }
     }
     //11
@@ -97,9 +97,9 @@ public class ArrayLists_Challenge
    
 
     //14
-    public void swap(int index){
-        colorsList.set(0, colors.get(index));
-        colors.set(0, colorsList.get(index));
+    public void swap(int index, int index2){
+        colorsList.set(index, colorsList.get(index2));
+        colorsList.set(index2, colorsList.get(index));
     }
    
     //17
@@ -118,5 +118,11 @@ public class ArrayLists_Challenge
     //21
     public void change2ndcolor(String newColor ){
         colorsList.set(1, newColor);
+    }
+    //22
+    public void printcolorsinorder(){
+        for(int i = 0; i<colorsList.size(); i++){
+            System.out.println(colorsList.get(i));
+        }
     }
 }
