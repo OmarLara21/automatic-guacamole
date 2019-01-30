@@ -21,6 +21,8 @@ public class ArrayLists_Challenge
         
         colors = new ArrayList();
         colors.add("Black");
+        
+        colorsinOrder = new ArrayList();
     }
     //2
     public void printColors(){
@@ -54,14 +56,14 @@ public class ArrayLists_Challenge
        return false;
     }
     //8
-    /*public void sortArrayList(){
-        for(int i = 0; i<colorsList.size();i++){
+    public void sortArrayList(){
+        for(int i = 0; i<colorsList.size()+1;i++){
             if (colorsList.get(i).length()<=colorsList.get(i+1).length()){
                 colorsinOrder.add(colorsList.get(i));
             }
         }
     }
-    */
+    
     
     //9 and 16
     public void copy(){
@@ -98,8 +100,9 @@ public class ArrayLists_Challenge
 
     //14
     public void swap(int index, int index2){
+        String color1 = colorsList.get(index);
         colorsList.set(index, colorsList.get(index2));
-        colorsList.set(index2, colorsList.get(index));
+        colorsList.set(index2, color1);
     }
    
     //17

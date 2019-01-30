@@ -2,19 +2,22 @@
 comment0.target=ArrayLists_Challenge
 comment1.params=
 comment1.target=ArrayLists_Challenge()
-comment10.params=index\ index2
-comment10.target=void\ swap(int,\ int)
-comment10.text=public\ boolean\ isthisArraybiggerthan(\ ArrayList<String>\ firstArray,\ ArrayList<String>\ secondArray){\r\n\ \ \ \ \ \ \ \ if\ (firstArray.size()\ >secondArray.size()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ }\r\n
-comment11.params=
-comment11.target=void\ removeAll()
+comment10.params=amount_of_colors
+comment10.target=void\ getportionofColors(int)
+comment10.text=public\ void\ reverseStuff(){\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ colorsList.size()-1;\ i>-1;\ i--){\r\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ j\ \=\ 0;\ j<colorsList.size();\ j++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ colorsList.set(j,\ colorsList.get(i));\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n
+comment11.params=index\ index2
+comment11.target=void\ swap(int,\ int)
+comment11.text=public\ boolean\ isthisArraybiggerthan(\ ArrayList<String>\ firstArray,\ ArrayList<String>\ secondArray){\r\n\ \ \ \ \ \ \ \ if\ (firstArray.size()\ >secondArray.size()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ }\r\n
 comment12.params=
-comment12.target=boolean\ checkempty()
+comment12.target=void\ removeAll()
 comment13.params=
-comment13.target=void\ trimsize()
-comment14.params=newColor
-comment14.target=void\ change2ndcolor(java.lang.String)
-comment15.params=
-comment15.target=void\ printcolorsinorder()
+comment13.target=boolean\ checkempty()
+comment14.params=
+comment14.target=void\ trimsize()
+comment15.params=newColor
+comment15.target=void\ change2ndcolor(java.lang.String)
+comment16.params=
+comment16.target=void\ printcolorsinorder()
 comment2.params=
 comment2.target=void\ printColors()
 comment3.params=color
@@ -28,9 +31,7 @@ comment6.target=void\ remove3rdcolor()
 comment7.params=color
 comment7.target=boolean\ searchforColor(java.lang.String)
 comment8.params=
-comment8.target=void\ copy()
-comment8.text=public\ void\ sortArrayList(){\r\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i<colorsList.size();i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (colorsList.get(i).length()<\=colorsList.get(i+1).length()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ colorsinOrder.add(colorsList.get(i));\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
-comment9.params=amount_of_colors
-comment9.target=void\ getportionofColors(int)
-comment9.text=public\ void\ reverseStuff(){\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ colorsList.size()-1;\ i>-1;\ i--){\r\n\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ j\ \=\ 0;\ j<colorsList.size();\ j++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ colorsList.set(j,\ colorsList.get(i));\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n
-numComments=16
+comment8.target=void\ sortArrayList()
+comment9.params=
+comment9.target=void\ copy()
+numComments=17
