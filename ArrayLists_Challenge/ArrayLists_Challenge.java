@@ -56,13 +56,19 @@ public class ArrayLists_Challenge
        return false;
     }
     //8
-    public void sortArrayList(){
-        for(int i = 0; i<colorsList.size()+1;i++){
-            if (colorsList.get(i).length()<=colorsList.get(i+1).length()){
+    public ArrayList sortArrayList(){
+        for(int i = 0; i<colorsList.size()-1;i++){
+            if (colorsList.get(i).length()<colorsList.get(i+1).length()){
                 colorsinOrder.add(colorsList.get(i));
             }
+            else if (colorsList.get(i).length()>colorsList.get(i+1).length()){
+                colorsinOrder.add(colorsList.get(i+1));
+            }
+            
         }
+        return colorsinOrder;
     }
+    
     
     
     //9 and 16
@@ -104,6 +110,18 @@ public class ArrayLists_Challenge
         colorsList.set(index, colorsList.get(index2));
         colorsList.set(index2, color1);
     }
+    //15
+    public ArrayList jointwoArrayList(){
+        ArrayList<String> JoinedArrayList = new ArrayList();
+        for(int i = 0 ; i <= colorsList.size()-1; i++){
+            JoinedArrayList.add(colorsList.get(i));
+        }
+        for(int i = 0 ; i <= colors.size()-1; i++){
+            JoinedArrayList.add(colors.get(i));
+        }
+        return JoinedArrayList;
+    }
+    
    
     //17
     public void removeAll(){
