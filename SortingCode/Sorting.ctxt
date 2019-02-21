@@ -5,6 +5,4 @@ comment1.params=
 comment1.target=void\ bubble()
 comment2.params=
 comment2.target=void\ insertion()
-comment3.params=
-comment3.target=void\ selection()
-numComments=4
+numComments=3

@@ -23,27 +23,20 @@ public class Sorting
     
     public void insertion(){
         int MM = 0;
-        int pivet = 0;
         for(int i = 0; i<Array.length-1; i++){
-            if(Array[i] >pivet){
-                for(int j = 0; j<Array.length- 1-i; j++){
+            int pivet = Array[i];
+            while(Array[i] <pivet){
                     MM = Array[i];
-                    Array[i] = Array[i+1];
-                    Array[i+1] = MM;
+                    Array[i] = Array[i-1];
+                    Array[i-1] = MM;
+            }
+            if(Array[i]>pivet){
+                MM = pivet;
+                pivet = Array[i];
+                Array[i] = MM;
                 }
             }
-            else{
-                if(Array[i]<pivet){
-                    pivet = Array[i];
-                    MM = Array[i];
-                    Array[i] = Array[i+1];
-                    Array[i+1] = MM;
-            }
-        }
-        }
-    }
-    
-    public void selection(){
         
+        }
     }
-}
+ 
