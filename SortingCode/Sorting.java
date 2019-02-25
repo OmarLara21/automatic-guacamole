@@ -23,20 +23,36 @@ public class Sorting
     
     public void insertion(){
         int MM = 0;
-        for(int i = 0; i<Array.length-1; i++){
-            int pivet = Array[i];
-            while(Array[i] <pivet){
-                    MM = Array[i];
-                    Array[i] = Array[i-1];
-                    Array[i-1] = MM;
-            }
-            if(Array[i]>pivet){
-                MM = pivet;
-                pivet = Array[i];
-                Array[i] = MM;
+        
+        for( int i = 0; i<Array.length-1; i++){
+            int Pivet = i+1;
+            if(Array[Pivet]<Array[i]){
+                for(int j = i+1; j>0;j--){
+                    MM  = Array[Pivet];
+                    Array[Pivet] = Array[j];
+                    Array[j] = MM;
                 }
             }
-        
+            
+            
         }
+    
+}
+    
+    public void selection(){
+        int MM = 0;
+        for(int i = 0; i<Array.length-1;i++){
+            int LowestValue = i;
+            for(int j = i+1; j<Array.length-1; j++){
+                if(Array[j]<Array[LowestValue]){
+                    LowestValue = j;
+                }
+            }
+            if(LowestValue !=i){
+                 MM = Array[i];
+                 Array[i] = Array[LowestValue];
+                 Array[LowestValue] = MM;
+                }
     }
- 
+}
+}
