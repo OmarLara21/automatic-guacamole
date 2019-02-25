@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ArrayLists
+comment1.params=
+comment1.target=ArrayLists()
+comment2.params=
+comment2.target=void\ printShoppingList()
+comment3.params=
+comment3.target=java.lang.String\ getFirstElement()
+comment4.params=
+comment4.target=void\ engageCookieMonster()
+comment5.params=
+comment5.target=void\ removeFirstElement()
+numComments=6
