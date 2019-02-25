@@ -7,7 +7,7 @@
  */
 public class Sorting
 {
-    int[] Array = {3,6,2,19,45,4,7};
+    int[] Array = {3,6,2,19,45,4,2};
     public void bubble(){
         int MM = 0;
         for(int i =0; i<Array.length-1;i++){
@@ -26,13 +26,13 @@ public class Sorting
         
         for( int i = 0; i<Array.length-1; i++){
             int Pivet = i+1;
-            if(Array[Pivet]<Array[i]){
-                for(int j = i; j>=0;j--){
-                    if(Array[j]>Array[Pivet]){
+            for(int j = i; j>=0;j--){
+                    while(Array[j]>Array[Pivet]){
                         MM  = Array[Pivet];
                         Array[Pivet] = Array[j];
                         Array[j] = MM;
-                    }
+                        Pivet--;
+                    
                     }
             }
             
