@@ -50,11 +50,9 @@ public class Sorting
                     LowestValue = j;
                 }
             }
-            if(LowestValue !=i){
-                 MM = Array[i];
-                 Array[i] = Array[LowestValue];
-                 Array[LowestValue] = MM;
-                }
+            MM = Array[i];
+            Array[i] = Array[LowestValue];
+            Array[LowestValue] = MM;
     }
 }
 }
