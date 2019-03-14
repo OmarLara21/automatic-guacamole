@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Tesla
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tesla\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=passengers\ start\ end
+comment1.target=Tesla(int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ emergencyStop()
+comment3.params=speed
+comment3.target=void\ slowDown(int)
+comment4.params=speed
+comment4.target=void\ speedUp(int)
+comment5.params=
+comment5.target=boolean\ toggleLocks()
+numComments=6

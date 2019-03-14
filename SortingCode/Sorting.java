@@ -13,39 +13,36 @@ public class Sorting
         for(int i =0; i<Array.length-1;i++){
             for(int j = 0; j<Array.length-1 - i; j++){
                 if(Array[j] >= Array[j+1]){
-                MM = Array[j];
-                Array[j] = Array[j+1];
-                Array[j+1]= MM;
+                    MM = Array[j];
+                    Array[j] = Array[j+1];
+                    Array[j+1]= MM;
                 }
+            }
         }
     }
-    }
-    
+
     public void insertion(){
         int MM = 0;
-        
+
         for( int i = 0; i<Array.length-1; i++){
-            int Pivet = i+1;
+            int Pivot = i+1;
             for(int j = i; j>=0;j--){
-                    while(Array[j]>Array[Pivet]){
-                        MM  = Array[Pivet];
-                        Array[Pivet] = Array[j];
-                        Array[j] = MM;
-                        Pivet--;
-                    
-                    }
+                while(Array[j]>Array[Pivot]){
+                    MM  = Array[Pivot];
+                    Array[Pivot] = Array[j];
+                    Array[j] = MM;
+                    Pivot--;
+
+                }
             }
-            
-            
+
         }
-    
-}
-    
+    }
     public void selection(){
         int MM = 0;
         for(int i = 0; i<Array.length-1;i++){
             int LowestValue = i;
-            for(int j = i+1; j<=Array.length-1; j++){
+            for(int j = i+1; j<Array.length; j++){
                 if(Array[j]<Array[LowestValue]){
                     LowestValue = j;
                 }
@@ -53,6 +50,6 @@ public class Sorting
             MM = Array[i];
             Array[i] = Array[LowestValue];
             Array[LowestValue] = MM;
+        }
     }
-}
 }
