@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BackpackInterface
+comment0.text=\r\n\ These\ methods\ are\ required\ for\ this\ project.\r\n\ \r\n\ @author\ Wiebe\ \r\n\ @version\ 1.2\r\n
+comment1.params=x
+comment1.target=void\ storeItem(Item)
+comment1.text=\r\n\ Puts\ an\ item\ into\ the\ backpack\r\n\ \r\n\ @param\ \ x\ \ \ \ The\ item\ to\ be\ stored\r\n\ @return\ \ \ \ \ \ \ \ true\ if\ added,\ false\ if\ not.\r\n
+comment2.params=
+comment2.target=int\ countItems()
+comment2.text=\r\n\ Counts\ the\ number\ of\ items\ in\ the\ backpack\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ \ \ \ The\ number\ of\ items\ in\ the\ backpack\r\n
+numComments=3
