@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DefenseCommands
+comment0.text=\r\n\ Commands\ used\ for\ all\ defensive\ items\r\n\ \r\n\ @author\ Wiebe\r\n\ @version\ 1.2\r\n
+comment1.params=
+comment1.target=boolean\ blocked()
+comment1.text=\r\n\ Block\ Attack\ Method\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ True\ if\ the\ attack\ was\ blocked\ by\ a\ piece\ of\ armor.\ \r\n
+numComments=2

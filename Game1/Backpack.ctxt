@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Backpack
+comment1.params=
+comment1.target=Backpack()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Backpack\r\n
+comment2.params=item
+comment2.target=void\ storeItem(Item)
+comment2.text=\r\n\ Adds\ an\ item\ to\ the\ backpack\r\n\ \r\n\ @param\ \ item\ \ \ The\ item\ of\ which\ to\ add\r\n\ @return\ \ \ \ \ true\ if\ added\r\n
+comment3.params=item
+comment3.target=boolean\ useItem(Item)
+comment3.text=\r\n\ Consumes\ an\ item\ in\ the\ backpack,\ removing\ it.\r\n\ \r\n\ @param\ \ item\ \ \ The\ item\ of\ which\ to\ delete\r\n\ @return\ \ \ \ \ true\ if\ deleted\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getInventory()
+comment4.text=\r\n\ Gets\ the\ contents\ of\ the\ backpack\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ An\ arraylist\ of\ Items\ in\ the\ backpack.\r\n
+comment5.params=
+comment5.target=int\ countItems()
+numComments=6
