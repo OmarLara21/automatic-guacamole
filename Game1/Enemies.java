@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Enemies extends Character
+public abstract class Enemies extends Character
 {
     public Enemies(String name, String gender, int age){
         super(name, gender, age);
