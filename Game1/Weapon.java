@@ -11,7 +11,7 @@ public abstract class Weapon extends Item
     protected String type;
     protected String description;
     protected int level;
-    protected String WeaponType;
+    protected String WeaponType ;
     public Weapon(String name, String type, String description, int level, String WeaponType){
         super(name, type, description, level);
         this.WeaponType = WeaponType;

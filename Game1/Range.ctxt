@@ -3,4 +3,6 @@ comment0.target=Range
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Range\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name\ type\ description\ level
 comment1.target=Range(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ Reload()
+numComments=3
