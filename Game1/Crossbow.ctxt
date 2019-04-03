@@ -3,4 +3,6 @@ comment0.target=Crossbow
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Crossbow\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=type\ description\ level
 comment1.target=Crossbow(java.lang.String,\ java.lang.String,\ int)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ FlameArrow()
+numComments=3

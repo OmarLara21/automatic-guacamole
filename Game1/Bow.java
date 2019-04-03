@@ -11,4 +11,8 @@ public class Bow extends Range
         super(name, type, description, level);
         this.WeaponType = WeaponType;
     }
+    public String threearrowshot(){
+        String threeshotline = "You load three arrows into your bow and fire those shots at your opponent hitting three critical points.";
+        return threeshotline;
+    }
 }

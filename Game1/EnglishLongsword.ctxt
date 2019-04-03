@@ -4,5 +4,5 @@ comment0.text=\r\n\ Write\ a\ description\ of\ class\ EnglishLongsword\ here.\r\
 comment1.params=type\ description\ level
 comment1.target=EnglishLongsword(java.lang.String,\ java.lang.String,\ int)
 comment2.params=
-comment2.target=java.lang.String\ EnglishStrike()
+comment2.target=java.lang.String\ EnglishSlash()
 numComments=3

@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Player extends Character
+public abstract class Player extends Character
 {   
     protected boolean blocked;
     public Player(String name, String gender, int age){

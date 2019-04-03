@@ -7,8 +7,8 @@
  */
 public class Rapier extends Sword
 {
-    public Rapier( String type, String description, int level){
-        super("Rapier", type, description, level);
+    public Rapier(){
+        super("Rapier","Black Legion", "This is a normal rapier, made by the black legion.", 3);
     }
     
     public String SwiftStrike(){
