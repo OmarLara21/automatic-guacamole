@@ -11,4 +11,8 @@ public class Elf extends Player
         super("Xür", "Male", 339);
     }
     
+    public String ElvenJump(){
+        String ElvenJumpLine = "You jump in the air at an incredible hieght, allowing you to hit the enemy's head doing double damage.";
+        return ElvenJumpLine;
+    }
 }
