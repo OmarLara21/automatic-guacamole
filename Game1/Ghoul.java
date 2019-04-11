@@ -10,7 +10,7 @@ public class Ghoul extends Enemies
     protected String MonsterType;
     public Ghoul(String name, String gender, int age,String MonsterType){
         super(name, gender, age);
-        this.MonsterType = MonsterType;
+        MonsterType = "Ghoul";
     }
     public String Rot(){
         String rotline = "The Ghoul's arm falls off.";

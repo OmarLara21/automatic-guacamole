@@ -10,7 +10,7 @@ public class Orc extends Enemies
     protected String MonsterType;
     public Orc(String name, String gender, int age,String MonsterType){
         super(name, gender, age);
-        this.MonsterType = MonsterType;
+        MonsterType = "Orc";
     }
     public String Grunt(){
         String Gruntline = "GRRRRRunt";

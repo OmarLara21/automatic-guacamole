@@ -5,10 +5,10 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class EnglishLongsword extends Sword
+public class Longsword extends Sword
 {
-    public EnglishLongsword( String type, String description, int level){
-        super("EnglishLongsword", type, description, level);
+    public Longsword(){
+        super("Longsword", "Elven Legion","A standard longsword.", 2);
     }
     public String EnglishSlash(){
         String EnglishSlashLine = "You jump into the air and strike down hard on your oppenent delivering a devastating blow.";

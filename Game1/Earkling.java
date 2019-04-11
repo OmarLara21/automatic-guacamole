@@ -8,9 +8,9 @@
 public class Earkling extends Enemies
 {   
     protected String MonsterType;
-    public Earkling(String name, String gender, int age, String MonsterType){
+    public Earkling(String name, String gender, int age){
         super(name, gender, age);
-        this.MonsterType = "Earkling";
+        MonsterType = "Earkling";
     }
     public String Eak(){
         String Eaksound = "EEEEEEEEAAAAAKKKKKK";

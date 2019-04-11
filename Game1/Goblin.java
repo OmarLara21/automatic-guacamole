@@ -10,7 +10,7 @@ public class Goblin extends Enemies
     protected String MonsterType;
     public Goblin(String name, String gender, int age,String MonsterType){
         super(name, gender, age);
-        this.MonsterType = MonsterType;
+        MonsterType ="Goblin";
     }
     public String Steal(){
         String StealAction = "The goblin steals your gold!";

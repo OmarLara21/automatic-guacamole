@@ -10,10 +10,10 @@ public class Dragon extends Enemies
    protected String MonsterType;
    public Dragon(String name, String gender, int age,String MonsterType){
         super(name, gender, age);
-        this.MonsterType = MonsterType;
+        MonsterType = "Dragon";
    }
    public String BreathFire(){
-       String DragonFire = "*Fire breaths all around you.";
+       String DragonFire = "*Fire erupts all around you from the dragon*";
        return DragonFire;
     }
 }
